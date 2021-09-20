@@ -11,41 +11,45 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    # title: Welcome to our Studio!
-    # text: It's Nice To Meet You
+   # title: Bienvenue dans le test!
+   # text: It's Nice To Meet You
     button: Contact
-    buttonlink: "#services"
+    buttonlink: "#contact"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "blablabla services etc"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Système d'information géographique"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+      - title: "Traitements raster"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Formations"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+        
+     # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #  desc: "Your description here, full **Markdown** support"
+       # icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "Réalisations"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
+    title: "Chronologie"
     text: "Lorem ipsum timeline"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
+      - title: "Obtention du master de Télédétection spatiale"
+        year: "2022"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
@@ -69,38 +73,48 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
+    title: "Formations proposées"
     text: "our story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  # clients:
+    # section: clients
+    # max-height: 100px
+    # horizontal-scrolling: "" #"yes/no"
+    # list:
+      # - title: "envato"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/envato.jpg
+      # - title: "designmodo"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/designmodo.jpg
+      # - title: "themeforest"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/themeforest.jpg
+      # - title: "Creative Market"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Qui suis-je ?"
+    # text: "Géomaticien"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      # - name: "Kay Garland"
+        # role: "Lead Designer"
+        # image: assets/img/team/500x500.jpg
+        # social:
+          # - url: https://twitter.com
+            # icon: fab fa-twitter
+          # - url: https://facebook.com
+            # icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+            # icon: fab fa-linkedin-in
+      - name: "Romain MOLIA"
+        role: "Géomaticien"
+        image: assets/img/team/romain.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -108,41 +122,31 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+      # - name: "Diana Perterson"
+        # role: "Lead Developer"
+        # image: assets/img/team/500x500.jpg
+        # social:
+          # - url: https://twitter.com
+            # icon: fab fa-twitter
+          # - url: https://facebook.com
+            # icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+            # icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact"
+    # text: "Lorem ipsum or call 123456789"
     section: contact
-    name: "Name*"
+    name: "Nom/Prénom/Organisme*"
     name-validation: "Please enter your name."
     email: "Email*"
     email-validation: "Please enter your email address."
-    phone: "Phone Number"
+    phone: "Numéro"
     phone-validation: "Please enter your phone number."
     message: "Message*"
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "Envoyer le message"
 
   footer:
     legal: "Privacy Policy"

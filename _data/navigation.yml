@@ -19,7 +19,7 @@ en: &DEFAULT_EN
       section: about
     - title: "Chronologie"
       section: timeline
-    - title: "Team"
+    - title: "QUi suis-je ?"
       section: team
     - title: "Contact"
       section: contact

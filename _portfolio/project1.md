@@ -1,19 +1,19 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
+title: Classification de l'occupation du sol
+#subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+image: https://imagizer.imageshack.com/img923/264/p8yDeU.jpg
 alt: Shirts on a hanger
 
 caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
+  title: Classification de l'occupation du sol
+  subtitle: CEREMA Sud-Ouest
+  thumbnail: https://imagizer.imageshack.com/img923/264/p8yDeU.jpg
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Réalisation de classifications dans le but d'évaluer l'impact des données d'entrées sur la qualité des classifications en faisant varier de nombreux paramètres (choix de l’algorithme, nettoyage des échantillons mis en apprentissage du random forest, nombre de branches du random forest, nombre de classes pour la classification). 20 images pleïade ont été utilisées durant cette étude sur la zone de Bordeaux centre.
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: Juillet 2019
+- Client: CEREMA Sud-Ouest
+- Categorie: Traitement d'image raster

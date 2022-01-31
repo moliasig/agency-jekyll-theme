@@ -18,17 +18,24 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "blablabla services etc"
+    text: ""
     section: services
     list:
       - title: "Système d'information géographique"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Un système d'information géographique (SIG) est un logiciel permettant d'exploiter des données géographiques. Le but est de réaliser des cartes ou de faire des statistiques sur des objets qui peuvent être des points, des lignes ou des polygones. Le sigiste pourra par exemple comptabiliser le nombre d'éoliennes sur une commune, mesurer la longueur d'une route ou encore calculer la surface d'un champs."
         icon: fas fa-map-marker-alt #find more at https://fontawesome.com/icons
-      - title: "Traitements raster"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Traitement d'images raster"
+        desc: "Le traitement d'image consiste tout d'abord à récupérer des images satellites sur des plateformes dédiées, que ce soit des images gratuites libre d'accès comme Sentinel-2 ou payantes comme Pleïade. Le choix du satellite dépend de l'étude et le géomaticien accompagne le client pour la prise de décision (une meilleure résolution de l'image entraînera une augmentation du coût). Le traitement de l'image choisie permettra ensuite de répondre au besoin en donnant par exemple une estimation de la surface des forêts, d'une zone impactée par une innondation... Les utilisations sont diverses et variées.
+        
+        
+        "
         icon: fas fa-layer-group
       - title: "Formations"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Les formations proposées comprennent les SIG, le traitement d'images raster ainsi qu'une approche sur les bases de données géographiques. Le logiciel libre Qgis 
+        
+        
+        
+        SIG traitement d'image et BDD"
         icon: fas fa-user-cog
         
      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
@@ -37,50 +44,51 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Réalisations"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: ""
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Chronologie"
+    title: "Chronologie <br> "
     text: "Lorem ipsum timeline"
     section: timeline
     # left is the default
     start_align: "left"
     events:
+      - title: "Stage de fin d'étude chez terraNIS"
+        year: "mars - août 2018"
+        desc: "Intérêt de l’imagerie radar pour la cartographie de l’occupation du sol : application au Nigeria à l’aide du satellite Sentinel-1.
+        Traitements d'images satellitaires optiques et radar pour réaliser des classifications supervisées."
+        image: assets/img/timeline/logo_terranis.png
+        alt:
       - title: "Obtention du master Aménagement des Territoires et Télédétection (ATT)"
-        year: "2018"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/Logo_UT3.jpg
+        year: "septembre 2018"
+        desc: "Prise en main des logiciels de SIG (ArcGIS, Qgis) et de bases de données (postGIS). Formation sur le traitement d'images satellitaires avec notamment des classifications d'occupation du sol."
+        image: assets/img/timeline/Logo_UT3_200.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Ingénieur d'étude au CEREMA"
+        year: "janvier - août 2019"
+        desc: "Évaluation de l’impact des données d’entrées sur la qualité des classifications Random Forest. Traitement d’images à haute résolution spatiale (Pleïades). Révision des algorithmes de classification LCZ (Local Climate Zone)."
+        image: assets/img/timeline/cerema_200.png
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Arrivée sur NOUMEA et géomaticien chez INSIGHT"
+        year: "janvier - mai 2020"
+        desc: "Contrôle qualité de la chaîne de traitement de détection des feux. Photo-interprétation des feux de 2019 sur la Nouvelle-Calédonie."
+        image: assets/img/timeline/logo_insight.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
+      - title: "Ouverture de la patente en tant que sigiste"
+        year: "août 2020 - aujourd'hui"
+        desc: "Mise à jour des circuits de transport scolaire de la Société Calédonienne de Transport. Réalisation d’une base de données géographiques des accotements/trottoirs de la Ville de Nouméa. Migration ACCESS vers PostGIS de la BDD travaux publics de WALLIS et FUTUNA. Formation sur le logiciel Qgis..."
+        image: assets/img/timeline/sig_molia_test.png
+        alt:
         # you can enforce the alignment
         align: left
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Travaillons <br> <br>  Ensemble"
 
   about:
     title: "Formations proposées"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    #text: "En cours de rédaction"
+    body: "En cours de rédaction"
     section: about
 
   # clients:
@@ -104,7 +112,7 @@ en: &DEFAULT_EN
   team:
     title: "Qui suis-je ?"
     # text: "Géomaticien"
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       # - name: "Kay Garland"
@@ -119,7 +127,7 @@ en: &DEFAULT_EN
             # icon: fab fa-linkedin-in
       - name: "Romain MOLIA"
         role: "Géomaticien"
-        image: assets/img/team/romain.jpg
+        image: assets/img/team/romain_photo.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -143,13 +151,13 @@ en: &DEFAULT_EN
     # text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Nom/Prénom/Organisme*"
-    name-validation: "Please enter your name."
+    name-validation: "Merci de mettre votre nom."
     email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Numéro"
-    phone-validation: "Please enter your phone number."
+    email-validation: "Merci de mettre votre adresse-mail."
+    phone: "Numéro (facultatif)"
+    phone-validation: "Merci de mettre votre numéro."
     message: "Message*"
-    message-validation: "Please enter a message."
+    message-validation: "Merci d'entrer un message."
     subject: "Contact Form Submission"
     submit: "Envoyer le message"
 
